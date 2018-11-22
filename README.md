@@ -1,0 +1,1 @@
+Download SimpleNGL and specify path in HairSimAll.pro

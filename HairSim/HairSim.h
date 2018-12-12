@@ -25,6 +25,10 @@ class HairStrand {
         void ReadHair(std::string file);
 		int length;
 		vector<HairSeg> m_HairStrand;
+        vector<glm::vec3> HairTC;       //Hair top constraint pos
+        vector<glm::vec3> HairC;        //Hair constraint pos
+        vector<glm::vec3> HairP;        //Hair point pos
+
 };
 
 class Hair: public HairStrand {
